@@ -1,0 +1,241 @@
+<head>
+<style>@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,800);
+
+	body {
+	  background: #add8e6;
+	  font-family: 'Open Sans';
+	  font-size: 1.3em;
+	  padding: 0;
+	  margin: 0;
+	}
+	a {
+	  text-decoration: none;
+	  color: white;
+	  text-indent: 120;
+	}
+	#nav {
+	  background: url("https://png.pngtree.com/thumb_back/fw800/background/20190828/pngtree-abstract-light-blue-background-image_303106.jpg");
+	  position: fixed;
+	  z-index: 1000;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	}
+	#nav ul{
+	  list-style: none;
+	}
+	#nav li {
+	  display: inline-block;
+	  padding: 10px;
+	}
+	#nav li:hover {
+	  background:rgb(143 231 255);
+	}
+	#nav li:hover a{
+	  color: black;
+	}
+	.content {
+	  padding-top: 90px;
+	}
+	.anchor {
+	  display: block; /*this is important!*/
+	}
+	.title {
+	  position: relative;
+	  display: block;
+	  top: -50px;
+	  padding: 20px 0;
+	  font-size: 1.9em;
+	}
+	.title:before{
+	  font-size: 1.5em;
+	  content: "\005B";
+	}
+	.title:after{
+	  font-size: 1.5em;
+	  content: "\005D";
+	}
+	.page-divider {
+	  margin: 0 auto;
+	  width: 100%;
+	  min-height: 500px;
+	  height: 100%; 
+	  overflow: hidden;
+	  background-size: cover;
+	}
+	.pgd1{background-image: url("https://static.vecteezy.com/ti/fotos-gratis/p2/7466554-suave-gradientes-efeitos-de-fundo-azul-bebe-gratis-foto.jpg");}
+	.pgd2{background-image: url("https://www.taylorswiftweb.net/wp-content/uploads/2023/08/1989taylorsversion.jpg");}
+	.page {
+	  min-width: 200px;
+	  padding: 50px 100px;
+	}
+	#page1 {background: rgb(143 231 255);}
+	#page2 {background: rgb(143 231 255);}
+	#page3 {background: rgb(143 231 255);}
+	
+	footer {
+	  min-height: 200px;
+	  padding: 100px;
+	}
+	footer p {
+	  -webkit-column-count: 2;
+	  -webkit-column-gap: 40px;
+	  -moz-column-count: 2;
+	  -moz-column-gap: 40px;
+	  -o-column-count: 2;
+	  -o-column-gap: 40px;
+	  column-count: 2;
+	  column-gap: 40px;
+	}</style>
+	<script>(function ($) {
+		$.fn.arctic_scroll = function (options) {
+	
+			var defaults = {
+				elem: $(this),
+				speed: 500
+			};
+			var options = $.extend(defaults, options);
+	
+			options.elem.click(function(event){     
+				event.preventDefault();
+				var offset = ($(this).attr('data-offset')) ? $(this).attr('data-offset') : false,
+					position = ($(this).attr('data-position')) ? $(this).attr('data-position') : false;         
+				if (offset) {
+					var toMove = parseInt(offset);
+					$('html,body').stop(true, false).animate({scrollTop: ($(this.hash).offset().top + toMove) }, options.speed);
+				} else if (position) {
+					var toMove = parseInt(position);
+					$('html,body').stop(true, false).animate({scrollTop: toMove }, options.speed);
+				} else {
+					$('html,body').stop(true, false).animate({scrollTop: ($(this.hash).offset().top) }, options.speed);
+				}
+			});
+	
+		};
+	})(jQuery);
+	
+	$(function(){
+		$(".scroller").arctic_scroll({
+			speed: 600
+		});
+	});</script>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+
+	<header>
+		<div id="nav">
+		  <ul>
+			<li><a href="#historia" class="scroller" data-offset="-140">Historia</a></li>
+			<li><a href="#discografia" class="scroller" data-offset="-139">Discografia</a></li>
+			<li><a href="#streaming" class="scroller" data-offset="-139">Streaming</a></li>
+		  </ul>
+		</div>
+		</header>
+		
+		<body>
+		<div class="content">
+			
+		  
+		  <div class="page" id="page1" >
+			
+			<a class="anchor" id="historia"></a>
+			  <div class="title" >1989 Taylor's Version </div>
+			  
+			   
+			<p><strong>Bem Vindo, nesse topico incial faremos uma analise completa do album 1989.   </strong>  </p>
+			
+		
+			
+			  <p></p></div>
+		
+		  <div class="page-divider pgd1"  ALIGN=center > 
+			<p>1989 (Taylor's Version) é o futuro quarto álbum regravado pela cantora e compositora estadunidense Taylor Swift, com lançamento previsto para 27 de outubro de 2023, através da Republic Records. Ele consiste na regravação do quinto álbum de estúdio de Swift, 1989 (2014), e sucede Speak Now (Taylor's Version), lançado em julho de 2023, Red (Taylor's Version) e Fearless (Taylor's Version), lançados em abril e novembro de 2021. Essa regravação faz parte da resposta de Swift à disputa de seus masters em 2019. Gravado com novos vocais e 21 faixas, 1989 (Taylor's Version) contém todas as 13 faixas da edição padrão, três da edição deluxe e cinco canções inéditas, denominadas "From The Vault", que não entraram no lançamento original de 2014. Swift, Christopher Rowe, Jack Antonoff e Shellback produziram grande parte do álbum, com novas contribuições de Aaron Dessner e Antonoff nas canções adicionais.</p>
+
+			<p>Taylor Swift lançou seu quinto álbum de estúdio, 1989, em 27 de outubro de 2014, através da gravadora Big Machine Records. A musicalidade synth-pop apresentada na obra estabeleceu a saída oficial da artista dos estilos country de seus discos anteriores. O álbum foi recebido de forma positiva por críticos de música. Também obteve um desempenho comercial bastante positivo, vendendo mais de 1,287 milhão de cópias em sua primeira semana nos Estados Unidos. Três de seus singles—"Shake It Off", "Blank Space" e "Bad Blood"—alcançaram o número um na parada Billboard Hot 100. Swift se tornou a primeira artista a ter três álbuns, cada um vendendo um milhão de cópias na primeira semana. 1989 foi o primeiro álbum lançado em 2014 a vender um milhão de cópias e liderou a parada Billboard 200 por 11 semanas não consecutivas. Na 58.ª edição do Grammy Awards (2016), ele ganhou o prêmio de Álbum do Ano e Melhor Álbum Vocal de Pop, fazendo de Swift a primeira artista feminina a vencer Álbum do Ano duas vezes.</p>
+
+			<p>De acordo com seu contrato de treze anos de exclusividade com a Big Machine, Swift lançou seis álbuns de estúdio sob o selo de 2006 a 2017. No final de 2018, o contrato com a gravadora expirou; portanto, ela saiu da Big Machine e assinou um novo contrato de gravação com a Republic Records, uma divisão da Universal Music Group, que lhe garantiu os direitos para possuir as masters de novas músicas que lançaria. Em 2019, o empresário norte-americano Scooter Braun e sua empresa Ithaca Holdings adquiriram a Big Machine.[ Como parte da aquisição, a propriedade das masters dos primeiros seis álbuns de estúdio de Swift foi transferida para Braun. Em agosto de 2019, Swift denunciou a compra do selo por Braun e anunciou que voltaria a gravar seus primeiros seis álbuns de estúdio, a fim de possuir seus masters. Em novembro de 2020, Braun vendeu as masters à Shamrock Holdings, uma empresa de capital privado norte-americana de propriedade da Disney sob as condições de que a Braun e a Ithaca Holdings continuarão a se beneficiar financeiramente dos álbuns. Swift começou a série de regravações em novembro de 2020. Fearless (Taylor's Version), o primeiro de seus seis álbuns regravados, foi lançado em 9 de abril de 2021, seguido por Red (Taylor's Version) em 12 de novembro de 2021 e Speak Now (Taylor's Version) em 7 de julho de 2023; todos alcançaram sucesso crítico e comercial, debutando no topo da parada Billboard 200.
+
+			</p>
+
+
+
+
+		  </div>
+			
+		  <div class="page" id="page2">
+			<a class="anchor" id="discografia"></a>
+			  <div class="title">Discografia</div>
+			   <p> <a href="https://www.youtube.com/watch?v=RfjPHmgBPF0" target="_blank">Welcome to New York:</a> 
+				 Eu queria começar o álbum com esta música porque Nova York tem sido um local e a paisagem da história da minha vida nos últimos anos. Eu sonhava em me mudar para Nova York, eu fiquei obcecada em me mudar para Nova York e eu fiz isso. E a inspiração que eu encontrei nesta cidade é meio que dificil de descrever e dificil de comparar com qualquer outra força de inspiração que eu já tive na minha vida. É como se fosse uma cidade elétrica. E eu tomei a decisão de me mudar para lá com um otimismo enorme e meio que via como um lugar com um potencial e possibilidades infinitas, e você pode ouvir isso se refletir nesta música e especialmente nela.</p>
+	
+				<p> <a href="https://youtu.be/dC9QIUKviJU?si=1C0t1lzQormuJizE" target="_blank">Blank Space:</a>  É uma das únicas músicas que eu já escrevi que eu comecei a compor ela como uma grande piada. Penso que como uma compositora você deve ser consciente de quem você é como pessoa, mas eu também acho que você não deve ignorar o que as pessoas pensam de você, o que a opinião geral diz sobre você. E nos últimos anos eu percebi que houve uma sensacionalização e ficcionalização da minha vida. Eles meio que estabeleceram este perfil de uma menina que namora em série, vive no mundo dos famosos exibindo todos seus namorados, ela consegue namorar eles, mas não consegue mantê-los, ela é muito emotiva, ela é carente, então o coração dela é partido porque eles a deixam. Ela fica mágoada e vai para o seu covil de maldades escrever músicas sobre eles para ter a sua vingança. É esse perfil complexo de uma pessoa. E eu fiquei pensando sobre isso. Comecei a pensar em como este personagem é interessante, se ela fosse uma pessoa real com todas estas qualidades e atributos, qual música ela escreveria? E tenho quase certeza que seria assim.</p>
+				
+				<p><a href="https://www.youtube.com/watch?v=-CmadmM5cOk" target="_blank">Style:</a> É uma música que eu escrevi depois de observar as tendências de moda e cultura e perceber que existem algumas coisas que são constantes. Você pode não usar aquele pretinho básico durante um tempo, mas você sempre vai poder recorrer a ele. Ninguém vai te dizer que batom vermelho saiu de moda há dois anos. Existem alguns marcos. E eu comecei a pensar nisso a respeito de um sentimento, existem sentimentos que são assim. Existem pessoas que entram e saem da sua vida, como uma tendência que volta e meia volta a ficar na moda e nunca desaparece. Essa foi a inspiração para esta música.</p>
+				
+				<p><a href="https://www.youtube.com/watch?v=JLf9q36UsBk" target="_blank">Out of the Woods:</a> Um dos objetivos que eu estabeleci quando comecei a fazer este álbum foi que as músicas dele soariam exatamente como as emoções foram sentidas. Esta música é sobre a natureza frágil e quebrável de um relacionamento. Este foi um relacionamento que eu tinha que viver um dia de cada vez, imaginando para onde ele estava indo, se iria para algum lugar, se iria terminar no dia seguinte. Foi um relacionamento que nunca esteve em um local sólido, e esse tipo de sentimento acaba trazendo consigo a excitação, mas também uma ansiedade extrema. É um tipo de sentimento frenético de imaginar e fazer perguntas. E esta música soa exatamente com este sentimento frenético de ansiedade e se questionar, mas também ressalta que, mesmo que um relacionamento seja frágil e corra o risco de terminar, cheio de ansiedade, isso não significa que não vale a pena e não seja bonito e tudo aquilo que nós procuramos.</p>
+				
+				<p><a href="https://www.youtube.com/watch?v=Wo93B0s7QcY" target="_blank">All You Had To Do Was Stay:</a> Essa música foi inspirada por um sonho bizarro que eu tive. Foi um daqueles sonhos que você passa o maior mico em público e você não consegue parar porque você está dormindo. Mas basicamente, neste sonho eu estava tentando conversar com alguém, uma pessoa muito importante para mim na época, e tudo que saía da minha boca, ao invés de palavras normais, eram esses gritos bem agudos de “FIQUE!”. Não importa o que eu tentava dizer, era isso que saía da minha boca. Eu acordei completamente perturbada e decidi que iria colocar isto em uma música e eu meio que já estava trabalhando nesta música. Acabou que foi a parte vocal  perfeitamente estranha que completou esta música que eu estou muito animada sobre que é All You Had to Do Was Stay.</p>
+				
+				<p><a href="https://www.youtube.com/watch?v=nfWlot6h_JM" target="_blank">Shake it Off:</a> É uma música que eu escrevi sobre ter que lidar com como os seres humanos tratam uns aos outros todos os dias. Não sou só eu que tenho que lidar com isso, todo mundo passa por isso. O sentimento de humiliação quando uma menina tem um boato espalhado sobre ela na escola, é o mesmo que eu sinto quando eu olho para as manchetes na revistas e tem uma manchete insana sobre mim. Penso que a maneira que devemos lidar com estes problemas é o mesmo. Você tem que aprender a ter um senso de humor com as coisas depois de um tempo, se não, você acab vivendo em um oceano enorme de amargura e irritação, de “por que as pessoas fazem isso comigo?”. E ao invés de escrever uma música que estivesse me vitimizando, eu quis escrever uma música alegre, que desse às pessoas uma maneira de aguentar qualquer quantidade de coisas ridiculas que a vida está colocando no caminho deles. Mas que também os faça querer dançar.</p>
+				
+				<p><a href="https://www.youtube.com/watch?v=vYkz33XFfl4" target="_blank">I Wish You Would: :</a> É uma música que eu escrevi com o Jack Antonoff. É a primeira música que trabalhamos juntos. Para esta música nós qeuriamos criar algo que fosse tipo o visual de um filme do John Hughes que fala sobre saudade. Tem uma pessoa aqui que sente falta de outra pessoa mas é muito orgulhosa e não vai falar isso, enquanto isso a outra pessoa está lá sentindo falta da mesma pessoa e eles estão sentido falta um do outro mas ninguém diz nada. Isso aconteceu na minha vida, então eu queria narrar isto de uma forma sistemática, em que você vê as duas cenas acontecerem e na ponte está a cena final, na qual ela se resolve sozinha, nela você tem “é um amor cheio de curvas, em uma linha reta, que te faz correr e se esconder, mas te faz voltar”. É sobre um amor dramático que nunca está onde deveria estar e sobre a tensão que isso cria.</p>
+				
+				<p><a href="https://www.youtube.com/watch?v=QcIy9NiNbmo" target="_blank">Bad Blood:</a>  É uma música que eu escrevi sobre um novo tipo de decepção que eu vivi recentemente. Que foi quando uma pessoa que eu queria muito que fosse minha amiga, e que pensava que era minha amiga, acabou deixando muito claro que não era. Então é sobre alguém que me inspirava muito e eu queria muito a aprovação desta pessoa, acabou sendo muito devastador de receber uma rasteira desta pessoa. Esta música é a primeira vez que eu me defendi neste relacionamento, porque ela sempre era a mais atrevida e que fazia mais barulho. Penso que é importante se defender e que se você só conseguir isso na forma de uma música, é como você deveria fazer.</p>
+				
+				<p><a href="https://www.youtube.com/watch?v=CUr_UwUUXzU" target="_blank">Wildest Dreams:</a>  É um bom exemplo da maneira que a minha visão do amor mudou. Durante os anos, penso, que enquanto você ganha mais experiência, depois que você já ficou desapontada algumas vezes, você passa a ver as coisas de uma forma mais realista. Não é tipo, você conhece alguém, e é isso. Se eles gostam de você e você gosta deles, vai ser para sempre. Eu não vejo mais o amor desta maneira. Penso que a maneira com que eu vejo o amor é um pouco mais fatalista. O que significa é que quando eu conheço alguém e temos uma conexão, a primeira coisa que eu penso é que, quando isso acabar, eu espero que você tenha uma boa impressão de mim. A música é sobre ter esta conexão imediata com alguém e estes foram os meus pensamentos vividos assim que eu o conheci.</p>
+				
+				<p><a href="https://www.youtube.com/watch?v=8_iOSKP9kUc" target="_blank">How You Get the Girl:</a>  É uma música que eu escrevi sobre quando somos jovens, o que a maioria dos meus amigos e colegas são, várias vezes você vai achar que um relacionamento está garantido e abrir mão dele. E aí você saí pelo mundo e percebe que quer aquilo de volta. Esta música é meio que um manual de instruções para um cara que terminou com sua namorada, deixou se passarem 6 meses, e o que ele deverá fazer para voltar com ela. E não será através de uma mensagem de texto de “E aí? Sinto sua falta”, isso não vai funcionar. Você precisa fazer tudo desta música.</p>
+				
+				<p> <a href="https://www.youtube.com/watch?v=mvxQYPR4lmU" target="_blank">This Love:</a>  É uma música que eu compus bem no começo deste processo. E foi a primeira vez que eu comecei a brincar com diferentes maneiras de gravar a voz. Neste caso, eu queria que soasse um pouco assombroso. Cantei esta música de uma forma diferente que eu canto a maioria, eu gravei ela diferente, você tem vários vocais rolando durante a música. É sobre uma experiência que eu tive, que você realmente gosta de uma pessoa e sabe que ela não está pronta para estar em um relacionamento, você deixará que ele ir embora. É uma droga ser quem abre mão de alguma coisa e deixar alguém livre quando você não quer que isso aconteça. Mas eu acho que você tem que ser generosa nos relacionamentos quando você sabe que não é a hora certa. E se você toma esta decisão e aquela pessoa está destinada a estar na sua vida, ela irá voltar. Isso é como eu me senti quando ele voltou.</p>
+				
+				<p><a href="https://www.youtube.com/watch?v=fnVkklL4138" target="_blank">I Know Places:</a> Eu escrevi I Know Places com o Ryan Tedder e foi a primeira música que eu compus com ele. Então, eu levei essa ideia bem crua que eu tinha feito no piano e mandei uma gravação minha cantando o refrão e chegando super animada no verso. Ele gostou e quis trabalhar com ela. A música fala sobre como outras pessoas vão estragar um relacionamento se tiverem a chance e como a melhor forma de começar um relacionamento pode ser mantê-lo em segredo o máximo possível porque é muito frágil. Eu acho que essa é uma música que eu falo o quão discreta eu terei de ser para poder fazer um relacionamento dar certo algum dia.</p>
+			
+				<p><a href="https://www.youtube.com/watch?v=GL-HyvAjbFw" target="_blank">Clean:</a>  É a última música do álbum por diversos motivos. Mas principalmente porque pareceu como uma conclusão deste processo emocional que eu passei nos últimos anos. Eu sinto que a minha vida pessoal foi muito discutida, criticada, debatida e falaram sobre ela até um ponto com que eu me senti corrompida. A discussão não era sobre música e me chateou porque eu tinha feito um álbum do qual eu estava orgulhosa, estava fazendo shows pelo mundo, tocando para estádios lotados e ainda assim o que todos queriam falar era sobre a minha vida pessoal. Em um certo ponto eu senti que isto mudou. E foi quando eu terminei de gravar este álbum que eu comecei a sentir que tinha o controle da minha vida de novo e a minha música era o foco mais uma vez. Eu estava no controle da minha vida e não me importava mais sobre o que as pessoas diziam, e foi quando eu passei a ver as pessoas falando menos sobre o que não importava. Eu fiz esta música com a Imogen Heap, que sempre foi uma ídola minha e quando eu estava em Londres para a Red Tour, e ela me ligou e disse “ei, se você quiser vir trabalhar, estou aqui!”. Eu dirigi para fora da cidade e fui até seu estúdio, e a ver trabalhando criando os instrumentais para esta música foi a experiência mais inspiradora. Ela estava colocando vocais, editando, criando a faixa, tocando instrumentos, eu fiquei admirada com este nível de talento e habilidade. Escrevemos a música “Clean”, que é sobre se permitir a sentir dor, e de repente, o tempo passa e você sobreviveu a tudo aquilo e chegou até o outro lado.</p>
+			
+				<p><a href="https://www.youtube.com/watch?v=KgL0t6nu-Mo" target="_blank">You Are in Love:</a>  Eu fiz ela com o Jack Antonoff. E é estranho porque ele me mandou os instrumentais e eu acabei fazendo uma letra que refletia muito o que o seu relacionamento com a sua namorada, e minha melhor amiga, se parecia para mim. A música é contada como se eu estivesse observando a sua história através de uma janela ou algo semelhante. Este álbum não é muito baseado em romance ou amor, porque isso não fez muito parte da minha vida nos últimos dois anos. Mas minhas amigas tem sido, e observar elas se apaixonarem e encontrarem relacionamentos importantes tem sido uma das experiências mais tocantes. Esta música é sobre quando você encontra o amor verdadeiro. Não estamos falando da busca, não estamos falando sobre uma fase ou um caso. Isso é como quando você encontra o amor real e verdadeiro. Para mim, é como esta música é como este sentimento parece ser.
+			
+			
+			</div>
+		
+		  <div ALIGN=center class="page-divider pgd2"> <iframe width="560" height="315" src="https://www.youtube.com/embed/wyK7YuwUWsU?si=MDu1uTNUgSWDwxdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			
+			<p> </p>
+		</div>
+		  
+		  <div class="page" id="page3">
+			<a class="anchor" id="streaming"></a>
+			  <div class="title">Streaming</div>
+			  <p>Redes e Streaming da Cantora Taylor Swift abaixo </p> 
+			  <p><a href="https://www.facebook.com/TaylorSwift" target="_blank">Siga Taylor Swift no Facebook</a></p>
+			  <p><a href="https://twitter.com/taylorswift13" target="_blank">Siga Taylor Swift no Twitter</a></p>
+			  <p><a href="https://www.instagram.com/taylorswift" target="_blank">Siga Taylor Swift no Instagram</a></p>
+			  <p><a href="https://taylorswift.tumblr.com/" target="_blank">Siga Taylor Swift no Tumblr</a></p>
+			  <p><a href="https://www.youtube.com/user/taylorswift" target="_blank">Assista aos vídeos de Taylor Swift no YouTube</a></p>
+			  <p><a href="https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02" target="_blank">Ouça Taylor Swift no Spotify</a></p>
+
+
+
+
+			 </div></div>
+		</body>
+		
+		<footer>
+		  <p> 
+			<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1yGbNOtRIgdIiGHOEBaZWf?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+		  </p>
+		</footer>
+
+</body>
